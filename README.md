@@ -16,6 +16,9 @@
 * [PCCJET25 http://172.30.230.233:8888/lab?](http://172.30.230.233:8888/lab?)
 * [PCCJET27 http://172.30.230.237:8888/lab?](http://172.30.230.237:8888/lab?)
 
+## LAB Links
+* [JetBot Workshop Instructions](2026-AI-LAB/JetBot_Notebook_Instructions_Workshop_r4.docx.md)
+* [JetBot Mentor Cheatsheet](2026-AI-LAB/jetbot-mentor-cheatsheet-r3.md)
 
 ## SSH
     ssh user and password are nvidia
