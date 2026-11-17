@@ -1,5 +1,24 @@
 {
     "name": "JETBOT",
     "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
-    "postCreateCommand": "python -m venv .venv && .venv/bin/python -m pip install ipywidgets sparkfun-qwiic Adafruit_MotorHat && (test -d ../jetbot/.git || git clone --depth 1 https://github.com/NVIDIA-AI-IOT/jetbot.git ../jetbot)"
+    "postCreateCommand": "python -m venv .venv && .venv/bin/python -m pip install ipywidgets sparkfun-qwiic Adafruit_MotorHat && (test -d ../jetbot/.git || git clone --depth 1 https://github.com/NVIDIA-AI-IOT/jetbot.git ../jetbot)",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.autopep8",
+                "xaver.clang-format",
+                "dbaeumer.vscode-eslint",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "ms-vscode.makefile-tools",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-python-envs"
+            ]
+        }
+    }
 }
